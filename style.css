@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 section.top{
@@ -58,7 +58,7 @@ section.top{
 .pop{
     font-family: 'Poppins', sans-serif;;
 }
-.mission h1{
+.mission h1, .extra-section h2{
     text-align:center;
     color: #13103A;
     font-size: 36px;
@@ -138,4 +138,16 @@ footer p{
     padding-bottom: 20px;
     font-weight: 300;
     font-size: 15px;
+}
+#email{
+    height: 40px;
+    padding: 4px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 700px;
+}
+.subscribe{
 }
