@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 0;
 }
-section{
+section.top{
     margin: 0 auto; 
     display: flex;
     padding: 0 9.5%;
@@ -58,12 +58,13 @@ section{
 .pop{
     font-family: 'Poppins', sans-serif;;
 }
-.missions h1{
+.mission h1{
     text-align:center;
     color: #13103A;
+    font-size: 36px;
  
 }
-.missions{
+.mission{
     margin-top: 45px;
 }
 .cards{
@@ -75,7 +76,7 @@ section{
     width: 20%;
     padding: 20px;
     margin: 1.25%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .single-card img{
     width: 50%;
@@ -91,4 +92,50 @@ section{
 } 
 #right{
     background-color: #fff4d6;
+}
+.personal{
+    display: flex;
+    padding: 0 9.5%;
+    margin-top: 150px;
+}
+.personal img{
+    width: 33%;
+
+}
+.person{
+    margin-left: 50px;
+    text-align: left;
+    display: inline-block;
+    height: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+.person h1{
+    font-size: 36px;
+    color: #333333;
+
+}
+.pesron-right{
+    text-align: right;
+    margin-right: 50px;
+}
+footer{
+    background-color: #0b0d18;
+    text-align: center;
+    color: white;
+    padding: 40px auto;
+}
+footer h2{
+    font-family: 'Lobster Two';
+    padding: 30px;
+    font-size: 48px;
+    color: white;
+}
+footer h2 span{
+    color:tomato;
+}
+footer p{
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 15px;
 }
