@@ -60,5 +60,35 @@ section{
 }
 .missions h1{
     text-align:center;
+    color: #13103A;
  
+}
+.missions{
+    margin-top: 45px;
+}
+.cards{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.single-card{
+    width: 20%;
+    padding: 20px;
+    margin: 1.25%;
+    border-radius: 5px;
+}
+.single-card img{
+    width: 50%;
+}
+.single-card p{
+    color: #424242;
+}
+#left{
+    background-color: #4f9da61f;
+}          
+#center{
+    background-color: #ff59591f;
+} 
+#right{
+    background-color: #fff4d6;
 }
