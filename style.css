@@ -123,11 +123,10 @@ footer{
     background-color: #0b0d18;
     text-align: center;
     color: white;
-    padding: 40px auto;
+    padding: 30px 0 50px 0 ;
 }
 footer h2{
     font-family: 'Lobster Two';
-    padding: 30px;
     font-size: 48px;
     color: white;
 }
