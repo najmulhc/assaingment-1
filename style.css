@@ -148,3 +148,23 @@ footer p{
     font-weight: 500;
     margin-left: 700px;
 }
+.subscribe{
+    margin-bottom: 60px;
+}
+#p-top{
+   background-image: url("images/bg.png");
+   background-size: 275px;
+   background-repeat: no-repeat;
+   background-position: left;
+   background-position-x: 75px;
+   background-position-y: 40px;
+}
+#p-bottom{
+    background-image: url("images/bg.png");
+    background-size: 275px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 300px;
+    padding-bottom: 90px;
+   
+ }
